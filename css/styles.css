@@ -1,0 +1,86 @@
+.blue-bar {
+	background: #3090c2;
+	height:10px;
+	margin-bottom: 1em;
+}
+.blue-box {
+	background:rgba(97, 167, 206, 0.8);
+	text-align: center;
+	padding:1.5em;
+	margin-bottom: 2em;
+}
+.red {
+	color:#d3382d;
+}
+p {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding-top:10px;
+	font-weight:200;
+	margin-bottom: 20px;
+}
+strong {
+	font-weight: 800;
+}
+.size-1 {
+	font-size: 0.65em;
+}
+.size-2 {
+	font-size:1em;
+	padding-top: 6px;
+}
+.size-3 {
+	font-size:2em;
+}
+.size-4 {
+	font-size:2.5em;
+}
+.large-number {
+	font-weight: 800;
+	float:left;
+	display: inline-block;
+	font-size: 5em;
+	margin-right: 0.15em;
+}
+.medium-number {
+	font-weight: 800;
+	float: left;
+	display: inline-block;
+	font-size: 4em;
+	margin-right: 0.15em;
+}
+.small-number {
+	font-weight: 800;
+	font-size:3.5em;
+
+}
+.third-row {
+	font-size:1.95em;
+}
+.sixth-row {
+	font-size: 1.85em;
+}
+span.small {
+	font-size: 0.5em;
+	vertical-align: 20px;
+	letter-spacing: -20px;
+}
+.first-col {
+	float:left;
+	display: inline-block;
+	width:20%;
+	font-size:0.8em;
+}
+.last-col {
+	float:right;
+	display: inline-block;
+	width:43%;
+	font-size: 0.8em;
+}
+.line-height-fix {
+	line-height: 0.75em;
+}
+.letter-spacing-fix {
+	letter-spacing: 0px!important;
+}
