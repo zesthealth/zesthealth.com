@@ -1319,6 +1319,13 @@ blockquote p {
   .show-for-print {
     display: inherit !important; } }
 button, .button {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #2f8fc1; /* layer fill content */
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -1335,11 +1342,11 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #61a7ce;
-  border-color: #3c91c0;
-  color: white; }
+  border:0;
+  color: white;
+  width: 100%; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #3c91c0; }
+    background-color: #1a6b95; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1470,8 +1477,6 @@ button, .button {
 
 @media only screen {
   button, .button {
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
@@ -1675,16 +1680,20 @@ input[type="url"],
 textarea {
   background-color: white;
   font-family: inherit;
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
   color: rgba(0, 0, 0, 0.75);
   display: block;
   font-size: 0.875em;
   margin: 0 0 1em 0;
   padding: 0.5em;
-  height: 2.3125em;
+  height: 2.85em;
   width: 100%;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1705,10 +1714,10 @@ textarea {
   input[type="time"]:focus,
   input[type="url"]:focus,
   textarea:focus {
-    -webkit-box-shadow: 0 0 5px #999999;
-    -moz-box-shadow: 0 0 5px #999999;
-    box-shadow: 0 0 5px #999999;
-    border-color: #999999; }
+    -webkit-box-shadow: 0 0 5px #2f8fc1;
+    -moz-box-shadow: 0 0 5px #2f8fc1;
+    box-shadow: 0 0 5px #2f8fc1;
+    border-color: #2f8fc1; }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
