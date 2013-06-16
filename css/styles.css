@@ -1,195 +1,218 @@
-.clearfix {
-	clear:both;
-}
-h2 {
-	color:#fff;
-	font-weight: 200;
-}
-.blue-bar {
-	background: #3090c2;
-	height:10px;
-	margin-bottom: 1em;
-}
-.blue-box {
-	background:rgba(97, 167, 206, 0.8);
-	text-align: center;
-	padding:1.5em;
-	margin-bottom: 2em;
-}
-.red {
-	color:#d3382d;
-}
-.liability {
-	padding-top: 0px;
-}
-.liability p {
-	padding-top:0;
-	font-size: 1.1em;
-}
-p {
-	font-size: 1.2em;
-	text-transform: uppercase;
-	line-height: 1em;
-	padding-top:10px;
-	font-weight:200;
-	margin-bottom: 20px;
-}
-strong {
-	font-weight: 800;
-}
-.size-1 {
-	font-size: 0.65em;
-}
-.size-2 {
-	font-size:1em;
-	padding-top: 6px;
-}
-.size-2-small {
-	font-size:0.8em;
-	padding-top: 6px;
-	line-height: 0em;
-}
-.size-3 {
-	font-size:1.4em;
-}
-.size-4 {
-	font-size:2.5em;
-}
-.large-number {
-	font-weight: 800;
-	float:left;
-	display: inline-block;
-	font-size: 5em;
-	margin-right: 0.15em;
-}
-.medium-number {
-	font-weight: 800;
-	float: left;
-	display: inline-block;
-	font-size: 4em;
-	margin-right: 0.15em;
-}
-.small-number {
-	font-weight: 800;
-	font-size:3.5em;
+	.clearfix {
+		clear:both;
+	}
+	h2 {
+		color:#fff;
+		font-weight: 200;
+	}
+	.blue-bar {
+		background: #3090c2;
+		height:10px;
+		margin-bottom: 1em;
+	}
+	.blue-box {
+		background:rgba(97, 167, 206, 0.8);
+		text-align: center;
+		padding:1.5em;
+		margin-bottom: 2em;
+	}
+	.red {
+		color:#d3382d;
+		font-weight: 700;
+	}
+	p {
+		font-size: 1em;
+		text-transform: uppercase;
+		line-height: 1.15em;
+		padding-top:10px;
+		font-weight:200;
+		margin-bottom: 20px;
+	}
+	strong {
+		font-weight: 800;
+	}
 
-}
-.near-small-number {
-	font-weight: 800;
-	font-size:2.4em;
+@media only screen and (min-width: 1024px) {
+	.liability {
+		padding-top: 0px;
+	}
+	.liability p {
+		padding-top:0;
+		font-size: 1.1em;
+	}
+	
+	.size-1 {
+		font-size: 0.65em;
+	}
+	.size-2 {
+		font-size:1em;
+		padding-top: 6px;
+	}
+	.size-2-small {
+		font-size:0.8em;
+		padding-top: 6px;
+		line-height: 0em;
+	}
+	.size-3 {
+		font-size:1.4em;
+	}
+	.size-4 {
+		font-size:2.5em;
+	}
+	.large-number {
+		font-weight: 800;
+		float:left;
+		display: inline-block;
+		font-size: 4.5em;
+		margin-right: 0.15em;
+		padding-top: 0.05em;
+	}
+	.medium-number {
+		font-weight: 800;
+		float: left;
+		display: inline-block;
+		font-size: 4em;
+		margin-right: 0.15em;
+	}
+	.small-number {
+		font-weight: 800;
+		font-size:3.5em;
 
-}
-.extra-small-number {
-	font-weight: 800;
-	font-size: 1.8em;
-	float:left;
-	display: inline-block;
-	padding-top: 0px;
-}
-.third-row {
-	font-size:1.95em;
-}
-.sixth-row {
-	font-size: 1.85em;
-}
-span.small {
-	font-size: 0.5em;
-	vertical-align: 20px;
-	letter-spacing: -20px;
-}
-.first-col {
-	float:left;
-	display: inline-block;
-	width:20%;
-	font-size:0.8em;
-}
-.first-col-bottom {
-	float: left;
-	display: inline-block;
-	width: 23%;
-	font-size: 0.7em;
-}
-.second-col {
-	float: left;
-	display: inline-block;
-	width: 43%;
-	font-size: 0.7em;
-}
-.first-col-bottom p {
-	padding-top: 0px;
-}
-.second-col p {
-	padding-top: 0px;
-	margin-bottom: 0px;
-}
-.last-col {
-	float:right;
-	display: inline-block;
-	width:43%;
-	font-size: 0.8em;
-}
-.last-col-bottom {
-	float:right;
-	display: inline-block;
-	width:63%;
-	font-size: 1.3em;
-}
-.last-col-bottom p {
-	padding-top: 2px;
+	}
+	.near-small-number {
+		font-weight: 800;
+		font-size:2.4em;
 
-}
-.line-height-fix {
-	line-height: 0.75em;
-}
-.letter-spacing-fix {
-	letter-spacing: 0px!important;
-}
-.margin-fix p {
-	margin-bottom: 0px;
-	padding-top: 7px;
-}
-.no-margin {
-	margin-bottom:0px;
-}
-.no-margin p {
-	margin-bottom: 0px;
-	padding-top: 5px;
-}
-.padding-fix {
-	padding-top: 4px;
-}
-.smaller-text {
-	font-size:0.8em;
-	line-height: 1em;
-}
-.insurance-top {
-	float: left;
-	display: block;
-	width: 100%;
-	font-size:1.35em;
-}
-.insurance-top p {
-	margin-bottom: 0px;
-}
-.insurance {
-	float:left;
-	display: inline-block;
-	width: 72%;
-}
-.insurance p {
-	padding-top: 0px;
-	margin-bottom: 0px;
-	font-size: 1.4em;
-}
-.cost {
-	font-size:1em;
-}
-.seven-x {
-	float:right;
-	display: inline-block;
-	margin-top: 6px;
-}
+	}
+	.extra-small-number {
+		font-weight: 800;
+		font-size: 1.8em;
+		float:left;
+		display: inline-block;
+		padding-top: 0px;
+	}
+	.third-row {
+		font-size:1.95em;
+	}
+	.sixth-row {
+		font-size: 1.85em;
+	}
+	span.small {
+		font-size: 0.5em;
+		vertical-align: 20px;
+		letter-spacing: -20px;
+	}
+	.first-col {
+		float:left;
+		display: inline-block;
+		width:21%;
+		font-size:0.8em;
+	}
+	.first-col-bottom {
+		float: left;
+		display: inline-block;
+		width: 23%;
+		font-size: 0.7em;
+	}
+	.second-col {
+		float: left;
+		display: inline-block;
+		width: 43%;
+		font-size: 0.7em;
+	}
+	.first-col-bottom p {
+		padding-top: 0px;
+	}
+	.second-col p {
+		padding-top: 0px;
+		margin-bottom: 0px;
+	}
+	.last-col {
+		float:right;
+		display: inline-block;
+		width:33%;
+		font-size: 0.8em;
+	}
+	.last-col-wide {
+		float:right;
+		display: inline-block;
+		width:54%;
+		font-size: 0.8em;
+	}
+	.last-col-bottom {
+		float:right;
+		display: inline-block;
+		width:63%;
+		font-size: 1.3em;
+	}
+	.last-col-bottom p {
+		padding-top: 2px;
 
+	}
+	.line-height-fix {
+		line-height: 0.75em;
+	}
+	.letter-spacing-fix {
+		letter-spacing: 0px!important;
+	}
+	.margin-fix p {
+		margin-bottom: 0px;
+		padding-top: 7px;
+	}
+	.no-margin, .no-bottom-margin {
+		margin-bottom:0px;
+	}
+	.no-margin p {
+		margin-bottom: 0px;
+		padding-top: 5px;
+	}
+	.no-bottom-margin p {
+		margin-bottom: 0px;
+	}
+	.padding-fix {
+		padding-top: 4px;
+	}
+	.smaller-text {
+		font-size:0.8em;
+		line-height: 1em;
+	}
+	.insurance-top {
+		float: left;
+		display: block;
+		width: 100%;
+		font-size:1.35em;
+	}
+	.insurance-top p {
+		margin-bottom: 0px;
+		padding-top: 6px;
+	}
+	.insurance {
+		float:left;
+		display: inline-block;
+		width: 54%;
+	}
+	.insurance p {
+		padding-top: 0px;
+		margin-bottom: 0px;
+		font-size: 1em;
+	}
+	.cost {
+		font-size:1em;
+	}
+	.seven-x {
+		float:right;
+		display: inline-block;
+		margin-top: -5px;
+		margin-right: 65px;
+		font-size: 1.25em;
+	}
+	.columns:first-child {
+		padding-left: 0;
+	}
+	.columns:last-child {
+		padding-right: 0;
+	}
+}
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
