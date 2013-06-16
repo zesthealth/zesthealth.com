@@ -14,7 +14,7 @@
 		background:rgba(97, 167, 206, 0.8);
 		text-align: center;
 		padding:1.5em;
-		margin-bottom: 2em;
+		margin-bottom: 2em!important;
 	}
 	.red {
 		color:#d3382d;
@@ -24,15 +24,43 @@
 		font-size: 1em;
 		text-transform: uppercase;
 		line-height: 1.15em;
-		padding-top:10px;
+		padding-top:0px;
 		font-weight:200;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
+	}
+	div.large-number, div.medium-number, div.extra-small-number, div.small-number {
+		float: left;
+		display:inline-block;
+		margin-right: 5px;
+	}
+	div.columns {
+		margin-bottom: 10px;
 	}
 	strong {
 		font-weight: 800;
 	}
+	.insurance-top, .no-bottom-margin {
+		float: left;
+		margin-right: 5px;
+	}
+	.no-top-margin {
+		margin-bottom: 10px;
+	}
+	.liability {
+		margin-bottom: 10px;
+	}
 
 @media only screen and (min-width: 1024px) {
+	p {
+		padding-top: 10px;
+		margin-bottom: 20px;
+	}
+	div.columns {
+		margin-bottom: 0px;
+	}
+	.costs-nearly {
+		font-size: 1.3em;
+	}
 	.liability {
 		padding-top: 0px;
 	}
@@ -142,7 +170,7 @@
 	.last-col-bottom {
 		float:right;
 		display: inline-block;
-		width:63%;
+		width:62%;
 		font-size: 1.3em;
 	}
 	.last-col-bottom p {
@@ -161,6 +189,10 @@
 	}
 	.no-margin, .no-bottom-margin {
 		margin-bottom:0px;
+	}
+	.no-bottom-margin {
+		display: block;
+		width:100%;
 	}
 	.no-margin p {
 		margin-bottom: 0px;
